@@ -13,7 +13,7 @@ For project 3, your goal is two-fold:
 
 Pushshift's API is fairly straightforward. For example, if I want the posts from [`/r/boardgames`](https://www.reddit.com/r/boardgames), all I have to do is use the following url: https://api.pushshift.io/reddit/search/submission?subreddit=boardgames
 
-To help you get started, we have a primer video on how to use the API: https://youtu.be/eGi8jf1wHgw
+To help you get started, we have a primer video on how to use the API: https://youtu.be/AcrjEWsMi_E
 
 ---
 
