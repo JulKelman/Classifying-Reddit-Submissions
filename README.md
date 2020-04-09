@@ -33,7 +33,7 @@ To help you get started, we have a primer video on how to use the API: https://y
 
 - Code and executive summary must be in a clearly commented Jupyter Notebook.
 - You must submit your slide deck.
-- Materials must be submitted by **10:00 AM on Friday, January 31st**.
+- Materials must be submitted by **10:00 AM on Friday, April 24th**.
 
 ---
 
