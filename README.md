@@ -19,43 +19,43 @@ Our goal is to build a model able to classify a submission as either part of the
 The dataframe was cleaned making sure to deal with any null values, and the submission text was cleaned to remove any non-text information. The words were then stemmed in order to improve our model's accuracy. Exploratory analysis included analysis of the comments, scores, and most frequent words. Data visualisation tools were used to identify trends and valuable insights from those analysis. Five models were then tested: baseline, logistic regression, kNN, naive bayes, and SVM, each with either a Count Vectorizer or TFIDF Vectorizer.   
 The model with the highest test accuracy was selected, evaluated, and conclusions and recommendations were derived to optimize the identification of potential customers. 
 
-## Tale of Contents:
+## Project Table of Contents:
 ---
-- [Reddit Data Import](#Loading-Data)
-    - [Data Dictionary](#Data-Dictionary)
-- [Data Cleaning](#Data-Cleaning) 
-- [Exploratory Data Analysis](#EDA)
-    - [Comments Analysis](#Comments-Analysis)
-    - [Score Analysis](#Score-Analysis)
-    - [Timestamps Analysis](#Timestamps-Analysis)
-    - [Most Frequent Words Analysis](#Most-Frequent-Words-Analysis)
-    - [Creating Custom Stopwords List](#Creating-Custom-Stopwords-List)
-- [Model Preparation](#Model-Preparation)
-- [Modeling](#Modeling)  
-    - [Baseline Model](#Baseline-Model)  
-    - [Logistic Regression](#Logistic-Regression)
-        - [Logistic Regression + CountVectorizer](#Logistic-Regression-+-CountVectorizer)
-        - [Logistic Regression + TFIDFVectorizer](#Logistic-Regression-+-TFIDFVectorizer)
-    - [kNN](#kNN)  
-        - [kNN + CountVectorizer](#kNN-+-CountVectorizer)
-        - [kNN + TFIDFVectorizer](#kNN-+-TFIDFVectorizer)
-    - [Naive Bayes](#Naive-Bayes) 
-        - [Multinomial Naive Bayes + CountVectorizer](#Multinomial-Naive-Bayes-+-CountVectorizer)  
-        - [Gaussian NB + TFIDFVectorizer](#Gaussian-NB-+-TFIDFVectorizer)
-    - [SVM](#SVM)
-        - [SVM + CountVectorizer](#SVM-+-CountVectorizer)
-        - [SVM + TFIDFVectorizer](#SVM-+-TFIDFVectorizer)
-- [Model Selection](#Model-Selection)
-- [Model Evaluation](#Model-Evaluation)
-    - [Confusion Matrix](#Confusion-Matrix)
-    - [Understanding Misclassifications](#Understanding-Misclassifications)
-    - [Coefficients Interpretation](#Coefficient-Interpretation)
-- [Conclusion & Recommendations](#Conclusion-and-Recommendations)
-- [References](#References)
+- Reddit Data Import
+    - Data Dictionary
+- Data Cleaning
+- Exploratory Data Analysis
+    - Comments Analysis
+    - Score Analysis
+    - Timestamps Analysis
+    - Most Frequent Words Analysis
+    - Creating Custom Stopwords List
+- Model Preparation
+- Modeling
+    - Baseline Model
+    - Logistic Regression
+        - Logistic Regression + CountVectorizer
+        - Logistic Regression + TFIDFVectorizer
+    - kNN
+        - kNN + CountVectorizer
+        - kNN + TFIDFVectorizer
+    - Naive Bayes
+        - Multinomial Naive Bayes + CountVectorizer  
+        - Gaussian NB + TFIDFVectorizer
+    - SVM
+        - SVM + CountVectorizer
+        - SVM + TFIDFVectorizer
+- Model Selection
+- Model Evaluation
+    - Confusion Matrix
+    - Understanding Misclassifications
+    - Coefficients Interpretation
+- Conclusion & Recommendations
+- References
 
 ## Project Files 
 ---
- [Reddit Data](https://git.generalassemb.ly/julia-kelman/project_3/tree/master/Data)   
+ [Reddit Data](https://github.com/JulKelman/Classifying-Reddit-Submissions/tree/master/Data)   
 
 ## Data Dictionary 
 ---
